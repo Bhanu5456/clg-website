@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">About</a></li>
+                    <li> <a href="">Course</a></li>
+                    <li> <a href="">Blog</a></li>
+                    <li> <a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+    
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2024</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam eius dicta laborum tempora suscipit explicabo quidem optio dolores sequi eligendi alias sapiente odit eos, unde neque. Mollitia qui quod fuga praesentium, neque blanditiis nesciunt quibusdam, ipsa odio perspiciatis, quidem pariatur.
+                </p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo impedit totam dolor nulla, inventore molestiae architecto pariatur assumenda distinctio nobis sit, possimus, officiis accusamus voluptate corrupti est. Nesciunt, repellat quos.</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus praesentium aspernatur nihil dicta eligendi quibusdam suscipit atque vero esse nam libero incidunt eaque nulla mollitia doloremque optio laboriosam, debitis molestiae asperiores explicabo, nesciunt ratione amet. Laboriosam id at eveniet, veniam voluptate, eligendi similique suscipit aliquid reiciendis ipsum repellendus non consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa atque quibusdam hic repudiandae eius sit error modi quos placeat voluptas at distinctio, facilis suscipit vero saepe ipsam accusantium consequuntur repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi delectus repudiandae recusandae temporibus officiis pariatur cum fugiat, impedit, quae explicabo quo unde. Consequuntur cupiditate rem eaque odit, dolores rerum expedita.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolor dolorum id necessitatibus sed reiciendis voluptas, nulla eum aliquid architecto ipsa praesentium non amet! Ipsum aut dolorum libero corporis neque eligendi fugiat quam dicta, repellat iste impedit mollitia delectus quidem explicabo eos quo! Inventore culpa eligendi veritatis doloribus error explicabo cupiditate sequi fugit reprehenderit ipsum, nobis aspernatur reiciendis quam doloremque.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form  class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="heros-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            
+            
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Auto Card</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Electronics and Communication</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Facere maxime adipisci id asperiores saepe quibusdam 
+             doloribus <br>magnam beatae vitae quos cupiditate facilis </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/7a9d056ec8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
